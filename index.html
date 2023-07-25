@@ -190,7 +190,7 @@
                 </p>
                 <button class="btn btn-primary">Show All</button>
             </div>
-            <!-- client review part -->
+            <!-- Container of review -->
             <div class="relative">
                 <!-- next review -->
                 <div class="bg-white p-10 rounded-lg relative opacity-40 mb-16 z-10">
@@ -284,39 +284,52 @@
     </main>
     <!-- main part end -->
     <!-- footer part start -->
-    <footer class="footer p-10 bg-base-200 text-base-content">
-        <div>
-            <span class="footer-title">Services</span>
-            <a class="link link-hover">Branding</a>
-            <a class="link link-hover">Design</a>
-            <a class="link link-hover">Marketing</a>
-            <a class="link link-hover">Advertisement</a>
-        </div>
-        <div>
-            <span class="footer-title">Company</span>
-            <a class="link link-hover">About us</a>
-            <a class="link link-hover">Contact</a>
-            <a class="link link-hover">Jobs</a>
-            <a class="link link-hover">Press kit</a>
-        </div>
-        <div>
-            <span class="footer-title">Legal</span>
-            <a class="link link-hover">Terms of use</a>
-            <a class="link link-hover">Privacy policy</a>
-            <a class="link link-hover">Cookie policy</a>
-        </div>
-        <div>
-            <span class="footer-title">Newsletter</span>
-            <div class="form-control w-80">
-                <label class="label">
-                    <span class="label-text">Enter your email address</span>
-                </label>
-                <div class="relative">
-                    <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16" />
-                    <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button>
-                </div>
+    <footer class=" p-10 bg-red-100  lg:px-56 lg:py-32">
+
+        <div class="flex flex-col lg:flex-row justify-between items-center gap-5 ">
+            <div>
+                <img src="images/cup.png" alt="">
+            </div>
+            <div class="flex flex-col lg:flex-row justify-between items-center gap-2 lg:gap-7">
+                <p>Ready to get strated?</p>
+                <button class="btn bg-gradient-to-r from-[#F00] to-[#FF8938] text-white rounded-lg">Get started</button>
             </div>
         </div>
+        <div class="grid grid-cols-2 lg:grid-cols-4 my-20">
+            <!-- Quick links -->
+            <div class="mb-7">
+                <p class="text-xl font-semibold mb-5">Quick Links</p>
+                <ul class="space-y-5">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Insurance</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <!-- Service site link -->
+            <div>
+                <p class="text-xl font-semibold mb-5">Our Service</p>
+                <ul class="space-y-5">
+                    <li><a href="">Life Insurance</a></li>
+                    <li><a href="">Car Insurance</a></li>
+                    <li><a href="">Health Insurance</a></li>
+                    <li><a href="">House Insurance</a></li>
+                </ul>
+            </div>
+            <!-- Help  -->
+            <div>
+                <p class="text-xl font-semibold mb-5">Help</p>
+                <ul class="space-y-5">
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="space-y-5">
+                <p class="text-2xl font-semibold">Subscribe to our newsletter</p>
+                <input type="email" placeholder="Email address">
+            </div>
+        </div>
+        <p class="text-center">© 2027 UIDesign.to - All rights reserved.</p>
     </footer>
     <!-- footer part end -->
 </body>
